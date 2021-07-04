@@ -1,0 +1,2 @@
+# solverMindsAngularTest
+Solver Minds Test
