@@ -21,7 +21,8 @@ export class AppComponent {
    ];
 
   constructor(private router: Router){
-  
+    this.curentTab  = this.routes[0].path;
+    this.router.navigate([this.routes[0].path]);
   }
 
   changeTab(tab){

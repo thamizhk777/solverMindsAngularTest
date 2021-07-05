@@ -34,12 +34,12 @@ import {
   MatSnackBarModule,
   MatSortModule,
   MatStepperModule,
-  MatTableModule,
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule,
   MatTreeModule,
 } from '@angular/material';
+import {MatTableModule} from '@angular/material/table';
 @NgModule({
   exports: [
     CdkTableModule,
@@ -78,7 +78,7 @@ import {
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatTreeModule,
+    MatTreeModule
   ],
   providers: [
     { provide: MatBottomSheetRef, useValue: {} },
