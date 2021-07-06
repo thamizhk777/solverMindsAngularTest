@@ -15,12 +15,10 @@ const routes: Routes = [
   {
     path: 'products',
     component: ProductsComponent
-    // loadChildren: () => import('./components/products/products.module').then(m => m.ProductsModule)
   },
   {
     path: 'brands',
     component: BrandsComponent
-    // loadChildren: () => import('./components/brands/brands.module').then(m => m.BrandsModule)
   }
 ];
 

@@ -9,6 +9,6 @@ export class ProductService {
   constructor(private http: HttpClient) { }
 
   getProducts(){
-    return this.http.get('https://60e1f10f5a5596001730f28b.mockapi.io/products/product')
+    return this.http.get('http://demo4980114.mockable.io/products/list')
   }
 }

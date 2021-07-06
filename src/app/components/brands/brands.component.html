@@ -1,1 +1,11 @@
-<p>brands works!</p>
+<mat-tab-group [(selectedIndex)]="demo1TabIndex">
+    <mat-tab label="List">
+        <app-brand-list showList="Show All Products"></app-brand-list>
+    </mat-tab>
+    <mat-tab label="Pending">
+        <app-brand-pending></app-brand-pending>
+    </mat-tab>
+    <mat-tab label="Rating">
+        <app-brand-rating></app-brand-rating>
+    </mat-tab>
+</mat-tab-group>
